@@ -1,0 +1,510 @@
+/*
+
+COINEX - Crypto Currency HTML Template 
+Author: iqonicthemes.in
+Version: 3
+Design and Developed by: iqonicthemes.in
+
+*/
+
+/*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+
+/* Displays/Screens (e.g. 24" WS @ 1920x1080) -------------- */
+
+@media only screen and (min-width:1890px) and (max-width:2529px) {}
+
+@media(max-width:1399px) {
+    header .navbar-light .nav-item .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1199px) {
+    .container {
+        max-width: 960px;
+    }
+    header {
+        padding: 20px 15px;
+    }
+    header .navbar-light .nav-item .nav-link {
+        font-size: 13px;
+    }
+    header .navbar-light .nav-item {
+        margin: 0 3px;
+    }
+    .owl-carousel .owl-nav .owl-prev {
+        left: -2%;
+    }
+    .owl-carousel .owl-nav .owl-next {
+        right: -2%;
+    }
+    header.menu-sticky {
+        padding: 10px 15px;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    .iq-banner .iq-countdown {
+        padding: 40px 20px;
+    }
+    .iq-countdown #countdown li {
+        padding: 0 15px;
+    }
+    .iq-our-team-2 .team-blog:hover .team-social {
+        bottom: 17px;
+    }
+    .project_list .project_item {
+        display: block;
+    }
+    .project_list .project_item .stat_sec {
+        display: flex;
+        flex-direction: row;
+    }
+    #project_list_sec .proj_title_sec h1 {
+        font-size: 30px;
+    }
+    #project_detail_sec .top_sec h2 {
+        font-size: 30px;
+    }
+    .staking-box {
+        padding: 20px 15px;
+    }
+    .staked-text {
+        padding-left: 10px;
+    }
+    .staking-box h4 {
+        padding-right: 10px;
+    }
+    .stake-btn,
+    .withdraw-btn {
+        padding: 10px 10px;
+    }
+    .staking-tab {
+        padding-top: 70px;
+    }
+}
+
+@media(max-width:992px) {
+    /*----------------
+	Section padding 
+	----------------*/
+    p {
+        font-size: 14px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .overview-block-ptb {
+        padding: 40px 0;
+    }
+    .overview-block-pt {
+        padding: 40px 0 0;
+    }
+    .overview-block-pb {
+        padding: 0 0 40px;
+    }
+    .iq-mt-100 {
+        margin-top: 70px;
+    }
+    header {
+        padding: 15px 15px;
+    }
+    .heading-title p {
+        padding: 0;
+    }
+    .container {
+        max-width: 720px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        padding: 2px 7px;
+        position: absolute;
+        right: 220px;
+        font-size: 26px;
+    }
+    .r9-mt-40 {
+        margin-top: 40px;
+    }
+    header .navbar-light .nav-item .nav-link.button {
+        padding: 15px 30px;
+    }
+    header .navbar-collapse {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #2b2b2b;
+    }
+    header .navbar-light .navbar-nav .nav-link:before {
+        display: none;
+    }
+    header .navbar-light .nav-item .nav-link {
+        font-size: 14px;
+        padding: 15px 15px;
+    }
+    header .navbar-light .navbar-nav .nav-link:hover,
+    header .navbar-light .navbar-nav .nav-link:focus,
+    header .navbar-light .navbar-nav .nav-item.active .nav-link {
+        background: #f9b707;
+        color: #fff;
+    }
+    header .navbar-light .nav:before {
+        top: 10px;
+    }
+    .iq-tranding-Platform .nav-tabs .nav-link span,
+    .d-mobile-none {
+        display: none;
+    }
+    .iq-fancy-box .fancy-icon img {
+        width: auto;
+    }
+    .owl-carousel .owl-nav .owl-prev {
+        left: -8%;
+    }
+    .owl-carousel .owl-nav .owl-next {
+        right: -8%;
+    }
+    .timeline--mobile .timeline__item .timeline__content:after {
+        border-right: 10px solid #131418;
+    }
+    .timeline--mobile .timeline__item .timeline__content:before {
+        border-right: 12px solid #131418;
+    }
+    .iq-banner-2 .iq-countdown {
+        padding-top: 0;
+    }
+    .iq-banner-2 {
+        padding: 22% 0 5%;
+    }
+    #chartrounddiv {
+        height: 250px;
+    }
+    .timeline:not(.timeline--horizontal):before {
+        background-color: #292c34;
+    }
+    .staking-box {
+        margin: 15px auto;
+    }
+    .staking-tab {
+        padding-top: 30px !important;
+    }
+    .staking-tab .nav-tabs {
+        padding-bottom: 30px !important;
+    }
+    .form-wizard .custom-checkbox {
+        position: relative !important;
+        left: 0px !important;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .radio-box {
+        margin-bottom: 30px !important;
+        text-align: left;
+    }
+    .stakers-box {
+        display: block !important;
+        padding: 10px 15px !important;
+    }
+    .stakers-box h5 {
+        line-height: 30px !important;
+    }
+    #project_detail_sec .top_right .stat_sec .stat_block {
+        padding-left: 20px;
+        margin-top: 15px;
+    }
+    #project_detail_sec .top_right .stat_sec .stat_block:first-child {
+        padding-left: 0px;
+    }
+    #project_detail_sec .tab_section .nav-tabs li a {
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+    #project_detail_sec .tab_section {
+        margin-top: 50px;
+    }
+    #project_detail_sec .tab_section .nav-tabs {
+        margin-bottom: 30px;
+    }
+    #project_detail_sec .desc_box {
+        margin-top: 20px;
+    }
+    #project_detail_sec .card .card-body {
+        padding: 10px;
+    }
+    #project_detail_sec .card .card-header {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #project_detail_sec table td,
+    #project_detail_sec table th {
+        padding: 5px;
+        font-size: 14px;
+    }
+    #how-it-work .section-head h2 {
+        font-size: 30px;
+    }
+    .iq-our-team-2,
+    .iq-our-team-2 .team-blog:before,
+    .iq-our-team-2 .team-blog:hover:before,
+    .iq-our-team-2 .team-blog:hover .team-description,
+    .iq-our-team-2 .team-blog:hover .team-social,
+    .iq-our-team-2 .team-blog .team-social {
+        display: inline-block;
+        margin: 0px auto;
+    }
+    .iq-mtb-15 {
+        text-align: center;
+    }
+    .iq-mtb-15:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width:979px) {
+    .table-calendar td,
+    .table-calendar th {
+        font-size: 16px !important;
+        line-height: 30px;
+    }
+    .table-calendar th {
+        font-size: 18px !important;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    .table-calendar td {
+        height: 50px;
+    }
+}
+
+@media(max-width:767px) {
+    .iq-banner-3 {
+        padding: 100px 0 50px;
+    }
+    .container {
+        max-width: 100%;
+    }
+    header .navbar-light .nav {
+        display: none;
+    }
+    .navbar-light .navbar-toggler {
+        right: 0;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3,
+    #how-it-work .section-head h2 {
+        font-size: 28px;
+    }
+    .owl-carousel .owl-controls {
+        display: none;
+    }
+    .contact-us.overview-block-pt {
+        padding-top: 0;
+    }
+    header {
+        padding: 15px 0px;
+    }
+    .iq-banner {
+        position: relative;
+        padding: 100px 0 50px;
+    }
+    header.menu-sticky {
+        padding: 10px 0px;
+    }
+    .r4-mt-40 {
+        margin-top: 40px;
+    }
+    #chartdiv {
+        width: 100%;
+        height: 290px;
+    }
+    .iq-our-clients.iq-ptb-60 {
+        padding: 30px 0;
+    }
+    .info-share li {
+        margin-bottom: 15px;
+    }
+    .closed_projects .col-lg-4:last-child .project_item {
+        margin-bottom: 0px;
+    }
+    #project_list_sec .proj_title_sec h1 {
+        font-size: 25px;
+    }
+    .img_box {
+        margin-bottom: 20px;
+    }
+    #project_detail_sec .top_sec h2 {
+        font-size: 25px;
+    }
+    #project_detail_sec .top_sec .progressBar {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    #project_detail_sec .top_sec button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    #project_detail_sec .card {
+        margin: 15px auto;
+    }
+    #project_detail_sec table td,
+    #project_detail_sec table th {
+        font-size: 14px;
+        padding: 10px;
+    }
+    #project_detail_sec .card .card-header {
+        font-size: 18px;
+    }
+    #project_detail_sec .card .card-body {
+        padding: 0px;
+    }
+    #project_detail_sec .tab_section .nav-tabs li {
+        margin-right: 20px;
+    }
+    .top_right {
+        margin-top: 15px;
+    }
+    #project_detail_sec .top_right .item_icon,
+    #project_detail_sec .top_right .stat_sec {
+        justify-content: flex-start;
+    }
+    .heading-title {
+        margin-bottom: 30px;
+    }
+    .iq-small-icon {
+        padding: 10px 10px;
+        margin-bottom: 10px;
+    }
+    .overview-block-ptb {
+        padding-top: 0px;
+    }
+    #project_list_sec .project_list {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:479px) {
+    h1 {
+        font-size: 32px;
+    }
+    .iq-banner-2 {
+        padding: 100px 0 50px;
+    }
+    .iq-banner-2 .iq-countdown {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .iq-countdown #countdown li p {
+        font-size: 11px;
+    }
+    .iq-countdown #countdown li span {
+        font-size: 36px;
+    }
+    .iq-banner .iq-countdown {
+        padding: 40px 5px;
+    }
+    .iq-tranding-Platform .nav-tabs .nav-link {
+        padding: 15px 5px;
+    }
+    .iq-contact-box-01 .iq-icon {
+        float: none;
+        margin-bottom: 10px;
+    }
+    .iq-tranding-Platform .nav-tabs .nav-link i {
+        font-size: 32px;
+    }
+    .contact-us .col-lg-6.iq-pl-50 {
+        padding-left: 15px;
+    }
+    h3#monthAndYear {
+        font-size: 20px;
+    }
+    .calender-page,
+    .staking-page,
+    #project_detail_sec {
+        padding: 120px 0px 50px !important;
+    }
+    #project_list_sec {
+        padding-top: 120px;
+        padding-bottom: 10px
+    }
+    .table-calendar td,
+    .table-calendar th {
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+    .table-calendar th {
+        font-size: 15px !important;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .table-calendar td {
+        height: 30px !important;
+    }
+    .staking-box {
+        padding: 15px 15px !important;
+        display: block !important;
+    }
+    .staked-text {
+        padding-left: 0px !important;
+    }
+    .staking-box h4 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+        padding-right: 15px !important;
+    }
+    .staking-box img {
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .staking-tab .nav-tabs li a {
+        font-size: 18px !important;
+        padding: 5px !important;
+    }
+    .radio-box .custom-control-label {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .radio-box .custom-control {
+        padding-left: 0px;
+        padding: 0px 10px !important;
+    }
+    .radio-box .custom-control-label {
+        padding-left: 30px !important;
+    }
+    .radio-box .custom-control-label:before {
+        width: 20px !important;
+        height: 20px !important;
+        top: 15px !important;
+    }
+    .radio-box .custom-control-label:after {
+        width: 10px !important;
+        height: 10px !important;
+        left: 5px !important;
+        top: 20px !important;
+    }
+    .staking-tab .nav-tabs li {
+        margin: 0px 1% !important;
+        display: inline-block;
+    }
+    .form-wizard .previous,
+    .form-wizard .next {
+        min-width: auto !important;
+        height: 35px !important;
+        font-size: 15px !important;
+    }
+    .radio-box .custom-control-label span {
+        font-size: 16px !important;
+    }
+}
